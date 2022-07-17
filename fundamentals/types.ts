@@ -23,5 +23,6 @@ function notuse(): void {
 }
 
 function Neverend(): never {
+  //이 함수는 절대 끝까지 도달하지 않는다는 뜻
   while (true) {}
 }
