@@ -29,10 +29,12 @@ let myBeer: CraftBeer = {
 //읽기전용 배열
 let readonlyArr: ReadonlyArray<number> = [1, 2, 3]; //arr.splice,push 등으로 배열을 바꾸려고 하면 에러발생
 
+//함수 타입을 정의하는 인터페이스
 interface login {
   (username: string, password: string): boolean;
 }
 let loginUser: login;
 loginUser = function (id: string, pw: string) {
+  console.log("로그인 했습니다");
   return true;
 };
