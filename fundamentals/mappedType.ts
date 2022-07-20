@@ -32,13 +32,16 @@ const ironMan: Subset<Person> = { name: "Tony", age: 33 };
 
 //mappedType 실용예제2
 
-interface UserProfile {
-  username: string;
-  email: string;
-  profilePhotoUrl: string;
-}
+// interface UserProfile {
+//   username: string;
+//   email: string;
+//   profilePhotoUrl: string;
+// }
 
-function fetchUserProfile(): UserProfile {
-  // ...
-  username: "박인후";
-}
+// function fetchUserProfile(): UserProfile {
+//   // ...
+//   username: "박인후";
+// }
+
+//https://joshua1988.github.io/ts/usage/mapped-type.html#%EB%A7%B5%EB%93%9C-%ED%83%80%EC%9E%85-%EC%8B%A4%EC%9A%A9-%EC%98%88%EC%A0%9C-2
+//실용예제2는 잘 이해가 안돼서 그냥 링크를 보자
