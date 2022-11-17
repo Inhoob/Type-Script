@@ -93,3 +93,9 @@ const pierre: Engineer = {
   languages: ["kr", "eng"],
   email: "hi",
 };
+
+//interface와 type의 차이
+/**
+ * interface는 객체만 묘사할 수 있다. 그러므로 객체 형태를 묘사하는 경우가 아니라면 type 키워드를 사용해야 한다.
+ * type은 같은 Person이라는 타입을 다시 열어서 사용할 수 없다. 하지만 interface는 같은 Person으로 추가할 수도, 아니면 extend로 확장해서 쓸 수도 있다. type은 확장하려면 & 기호를 사용할 수 있긴 함.
+ */
