@@ -87,3 +87,7 @@ let mystery : unknown = "Hello World!!!";
 // const numChars = mystery.length 로 할 경우 error 발생
 const numChars = (mystery as string).length
 ```
+
+## Generics
+
+Generics는 여러 타입을 사용하는 재사용 함수와 클래스를 정의하게 해주는 특수구문
