@@ -93,4 +93,10 @@ const numChars = (mystery as string).length
 Generics는 여러 타입을 사용하는 재사용 함수와 클래스를 정의하게 해주는 특수구문
 
 ## Modules
+
 파일간 코드 공유는 원래 JavaScript에서는 불가능한 일이였지만 지금은 CommonJS나 ES Modules를 통해 가능해졌다.
+
+## Webpack 번들
+
+SourceMap : browser의 source 탭에서 번들링된 파일을 역번들링해서 원본을 확인할 수 있음
+자세한건 webpack_ts_final 폴더 참고
