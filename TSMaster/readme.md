@@ -100,3 +100,7 @@ Generics는 여러 타입을 사용하는 재사용 함수와 클래스를 정�
 
 SourceMap : browser의 source 탭에서 번들링된 파일을 역번들링해서 원본을 확인할 수 있음
 자세한건 webpack_ts_final 폴더 참고
+
+## React에 TypeScript 적용
+
+[타입스크립트 cheatsheet](https://react-typescript-cheatsheet.netlify.app/docs/basic/setup)
