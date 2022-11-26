@@ -65,7 +65,12 @@ interface Printable {
 class Bike implements Colorful {
   constructor(public color: string) {}
 }
+//extends와  implements 차이
+//extends는 인터페이스의 값을 모두 클래스가 가지고 있으므로 일일이 정의하지 않아도됨.
+//프로퍼티를 지정하지 않으면  초기값으로 선언되며 에러를 반환하지는 않는다.
 
+//implements는 새로운 클래스의 모양을 동일하게 정의하고 싶을 때 사용한다. 따라서 interface로 정의한 값들은 모두 필수적으로
+//들어가야 한다.하나라도 빠질 경우 에러를 반환한다.
 class Jacket implements Colorful, Printable {
   constructor(public brand: string, public color: string) {}
   print(): void {
